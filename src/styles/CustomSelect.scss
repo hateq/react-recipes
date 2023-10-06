@@ -1,0 +1,29 @@
+.custom-select {
+	&__control {
+		background-color: transparent !important;	
+		box-shadow: 1px 1px 10px rgb(132, 0, 240);
+		&--is-focused {
+			box-shadow: 1px 1px 10px rgb(132, 0, 240) !important;
+		}
+	}
+	&__value-container {
+		cursor: text !important;
+		text-align: center !important;
+	}
+	&__input-container {
+		color: rgb(170, 0, 255) !important;
+	}
+	&__indicators {
+		cursor: pointer;
+	}
+	&__menu {
+		background-color: rgb(153, 0, 255) !important;
+	}
+	&__option {
+		cursor: pointer !important;
+		color: white !important;
+		&--is-focused {
+			background-color: rgb(123, 0, 255) !important;
+		}
+	}
+}

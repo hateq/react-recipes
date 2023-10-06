@@ -1,0 +1,50 @@
+@import './styles/normalize.scss';
+
+html[data-theme='dark']{
+	--color: rgb(29, 28, 28);
+	--text-color: white;
+	--text-hover: rgb(183, 0, 255);
+	--icons-hover: 1px 1px 20px rgb(153, 0, 255);
+}
+
+html[data-theme='light']{
+	--color: rgb(215, 215, 215);
+	--text-color: black;
+	--text-hover: rgb(183, 0, 255);
+	--icons-hover: 1px 1px 20px rgb(153, 0, 255);
+}
+
+* {
+	box-sizing: border-box;
+	&::selection {
+		background-color: rgb(125, 0, 183);
+		color: var(--color);
+	}
+}
+a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+html {
+	height: 100%;
+}
+body {
+	background-color: var(--color);
+	transition:background-color .5s linear;
+	color: var(--text-color);
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, p, li {
+	color: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+h1,h2,h3 {
+	font-weight: 700;
+}
+button {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+}

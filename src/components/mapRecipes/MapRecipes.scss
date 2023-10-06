@@ -1,0 +1,19 @@
+.recipes-list {
+	width: 100%;
+	display: grid;
+	padding: 40px;
+	gap: 50px 0;
+	place-items: center;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	@media(max-width: 1500px) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	@media(max-width: 1050px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@media(max-width: 700px) {
+		grid-template-columns: repeat(1, 1fr);
+		padding: 30px;
+	}
+}

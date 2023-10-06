@@ -1,0 +1,27 @@
+@import '../../styles/CustomSelect.scss';
+.search-form {
+	margin: 30px auto;
+	text-align: center;
+}
+.search-filters {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.select-block {
+	display: flex;
+	justify-content: center;
+	padding-left: 45px;
+	gap: 15px;
+	img {
+		width: 30px;
+		cursor: pointer;
+		transition: .5s;
+		&:hover {
+			filter: drop-shadow(1px 1px 10px rgb(110, 1, 173));
+		}
+	}
+.select-container {
+	width: 230px;
+}
+}

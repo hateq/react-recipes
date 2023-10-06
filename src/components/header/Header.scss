@@ -1,0 +1,38 @@
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	border-bottom: 2px solid gray;
+	@media(max-width: 500px) {
+		padding: 30px 15px;
+	}
+	h2 {
+		font-size: 26px;
+		transition: .5s;
+		@media(max-width: 400px) {
+			font-size: 22px;
+		}
+		&:hover {
+			color: var(--text-hover);
+		}
+	}
+	.logo-img {
+		width: 90px;
+		border-radius: 15px;
+		transition: .5s;
+		cursor: pointer;
+		margin-right: -40px;
+		@media(max-width: 500px) {
+			width: 80px;
+			margin-right: -30px;
+		}
+		&:hover {
+		box-shadow: var(--icons-hover);
+		}
+	}
+}
+.header-link-active {
+	color: var(--text-hover);
+}

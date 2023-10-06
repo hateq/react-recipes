@@ -1,0 +1,67 @@
+.recipes-card {
+	width: 300px; 
+	border: 2px solid gray;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+	.img-container {
+		width: 170px;
+		height: 170px;
+		background-color: var(--text-hover);
+		border-radius: 30px;
+		img {
+			width: 100%;
+			height: 100%;
+			border-radius: 30px;
+		}
+	}
+	h2 {
+		margin: 0;
+	}
+	p {
+		font-size: 14px;
+		margin: 0;
+	}
+	.card-buttons {
+		width: 100%;
+		height: 90px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		gap: 0 10px;
+		margin-top: 20px;
+		padding: 20px 0 0; 
+		border-top: 1px solid gray;
+		button {
+			font-size: 18px;
+			padding: 8px;
+			border-radius: 12px;
+			border: 2px solid rgb(92, 0, 128);
+			cursor: pointer;
+		}
+		.button-favorites {
+			width: 150px;
+			background-color: rgb(113, 1, 158);
+			color: white;
+			transition: .5s;
+			&:hover {
+				background-color: rgb(97, 1, 149);
+				transform: translateY(-2px);
+			}
+		}
+		.button-view {
+			background-color: transparent;
+			color: var(--text-color);
+			box-shadow: 1px 1px 5px rgb(83, 0, 128);
+			transition: .5s;
+			&:hover {
+				box-shadow: var(--icons-hover);
+			}
+		}
+	}
+}
