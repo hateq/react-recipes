@@ -1,7 +1,6 @@
 import Header from '../../header/Header';
 import './FavoritesPage.scss';
 import { useFavorites } from '../../../hooks/useFavorites';
-import RecipesCard from '../../recipesCard/RecipesCard';
 import RecipeInfo from '../../recipeInfo/RecipeInfo';
 import { useState } from 'react'
 import MapRecipes from '../../mapRecipes/MapRecipes'

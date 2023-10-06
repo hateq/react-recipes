@@ -5,7 +5,7 @@ const NoFavories = () => {
 	return ( 
 		<div className="no-favorites">
 			<h2>No Favories</h2>
-			<p>You can go to <Link to='/'><span>main page </span></Link>and find many beautiful Recipes</p>
+			<p>You can go to <Link to='/react-recipes/'><span>main page </span></Link>and find many beautiful Recipes</p>
 		</div>
 	 );
 }

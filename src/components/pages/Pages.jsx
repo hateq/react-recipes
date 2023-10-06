@@ -7,8 +7,8 @@ const Pages = () => {
 	return ( 
 		<>
 		<Routes>
-			<Route path='/' element={<MainPage/>}/>
-			<Route path='/favorites' element={<FavoritesPage/>}/>
+			<Route path='/react-recipes/' element={<MainPage/>}/>
+			<Route path='/react-recipes/favorites' element={<FavoritesPage/>}/>
 			<Route path='*' element={<ErrorPage/>}/>
 		</Routes>
 		</>

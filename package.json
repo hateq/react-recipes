@@ -1,5 +1,6 @@
 {
   "name": "react-recipes",
+  "homepage": "https://hateq.github.io/react-recipes/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

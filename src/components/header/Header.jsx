@@ -8,10 +8,10 @@ const Header = ({page}) => {
 		<header>
 			<nav className="nav">
 				<ThemeToggler/>
-				<Link to='/'>
+				<Link to='/react-recipes'>
 				<img src={Logo} alt="" className='logo-img'/>
 				</Link>
-				<Link to='/favorites'>
+				<Link to='/react-recipes/favorites'>
 					<h2 className={page == 'favorites' ? 'header-link-active' : ''}>Favorites</h2>
 				</Link>
 			</nav>
