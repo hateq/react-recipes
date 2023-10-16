@@ -10,7 +10,7 @@ const Footer = () => {
 			</div>
 			<div className="footer-bottom">
 				<a href="https://github.com/hateq" target='_blank'>Github</a>
-				<a href="https://t.me/fhdhddjb" target='_blank'>Telegram</a>
+				<a href="https://t.me/hateql" target='_blank'>Telegram</a>
 				<a href="https://vk.com/cvrsdxdx" target='_blank'>VK</a>
 				<a href="https://www.linkedin.com/in/vadim-konyukhov-a958b9283/" target='_blank'>LinkedIn</a>
 			</div>
